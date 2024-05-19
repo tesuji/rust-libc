@@ -2439,7 +2439,6 @@ pub const RTM_CHGADDR: ::c_int = 0x18;
 pub const RTA_TAG: ::c_int = 0x100;
 
 pub const RTAX_TAG: ::c_int = 8;
-pub const RTAX_MAX: ::c_int = 9;
 
 cfg_if! {
 

@@ -1962,7 +1962,6 @@ pub const RTAX_BFD: ::c_int = 11;
 pub const RTAX_DNS: ::c_int = 12;
 pub const RTAX_STATIC: ::c_int = 13;
 pub const RTAX_SEARCH: ::c_int = 14;
-pub const RTAX_MAX: ::c_int = 15;
 
 const_fn! {
     {const} fn _ALIGN(p: usize) -> usize {

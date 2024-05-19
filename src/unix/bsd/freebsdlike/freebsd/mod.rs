@@ -4561,8 +4561,6 @@ pub const RTF_FIXEDMTU: ::c_int = 0x80000;
 
 pub const RTM_VERSION: ::c_int = 5;
 
-pub const RTAX_MAX: ::c_int = 8;
-
 // sys/signal.h
 pub const SIGTHR: ::c_int = 32;
 pub const SIGLWP: ::c_int = SIGTHR;
