@@ -1015,6 +1015,61 @@ pub const SO_TYPE: ::c_int = 0x1008;
 
 pub const LOCAL_PEERCRED: ::c_int = 1;
 
+// net/route.h
+pub const RTF_UP: ::c_int = 0x1;
+pub const RTF_GATEWAY: ::c_int = 0x2;
+pub const RTF_HOST: ::c_int = 0x4;
+pub const RTF_REJECT: ::c_int = 0x8;
+pub const RTF_DYNAMIC: ::c_int = 0x10;
+pub const RTF_MODIFIED: ::c_int = 0x20;
+pub const RTF_DONE: ::c_int = 0x40;
+pub const RTF_XRESOLVE: ::c_int = 0x200;
+pub const RTF_LLINFO: ::c_int = 0x400;
+pub const RTF_STATIC: ::c_int = 0x800;
+pub const RTF_BLACKHOLE: ::c_int = 0x1000;
+pub const RTF_PROTO2: ::c_int = 0x4000;
+pub const RTF_PROTO1: ::c_int = 0x8000;
+pub const RTF_PROTO3: ::c_int = 0x40000;
+pub const RTF_PINNED: ::c_int = 0x100000;
+pub const RTF_LOCAL: ::c_int = 0x200000;
+pub const RTF_BROADCAST: ::c_int = 0x400000;
+pub const RTF_MULTICAST: ::c_int = 0x800000;
+
+pub const RTM_ADD: ::c_int = 0x1;
+pub const RTM_DELETE: ::c_int = 0x2;
+pub const RTM_CHANGE: ::c_int = 0x3;
+pub const RTM_GET: ::c_int = 0x4;
+pub const RTM_LOSING: ::c_int = 0x5;
+pub const RTM_REDIRECT: ::c_int = 0x6;
+pub const RTM_MISS: ::c_int = 0x7;
+pub const RTM_LOCK: ::c_int = 0x8;
+pub const RTM_RESOLVE: ::c_int = 0xb;
+pub const RTM_NEWADDR: ::c_int = 0xc;
+pub const RTM_DELADDR: ::c_int = 0xd;
+pub const RTM_IFINFO: ::c_int = 0xe;
+pub const RTM_NEWMADDR: ::c_int = 0xf;
+pub const RTM_DELMADDR: ::c_int = 0x10;
+pub const RTM_IFANNOUNCE: ::c_int = 0x11;
+pub const RTM_IEEE80211: ::c_int = 0x12;
+
+pub const RTA_DST: ::c_int = 0x1;
+pub const RTA_GATEWAY: ::c_int = 0x2;
+pub const RTA_NETMASK: ::c_int = 0x4;
+pub const RTA_GENMASK: ::c_int = 0x8;
+pub const RTA_IFP: ::c_int = 0x10;
+pub const RTA_IFA: ::c_int = 0x20;
+pub const RTA_AUTHOR: ::c_int = 0x40;
+pub const RTA_BRD: ::c_int = 0x80;
+
+pub const RTAX_DST: ::c_int = 0;
+pub const RTAX_GATEWAY: ::c_int = 1;
+pub const RTAX_NETMASK: ::c_int = 2;
+pub const RTAX_GENMASK: ::c_int = 3;
+pub const RTAX_IFP: ::c_int = 4;
+pub const RTAX_IFA: ::c_int = 5;
+pub const RTAX_AUTHOR: ::c_int = 6;
+pub const RTAX_BRD: ::c_int = 7;
+
 pub const SHUT_RD: ::c_int = 0;
 pub const SHUT_WR: ::c_int = 1;
 pub const SHUT_RDWR: ::c_int = 2;
