@@ -92,6 +92,7 @@ test_target() {
 
 # Targets which are not available via rustup and must be built with -Zbuild-std
 RUST_LINUX_NO_CORE_TARGETS="\
+x86_64-unknown-openbsd
 aarch64-pc-windows-msvc \
 aarch64-unknown-freebsd \
 "
