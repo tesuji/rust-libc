@@ -1921,7 +1921,7 @@ pub const RTF_CLONING: ::c_int = 0x100;
 pub const RTF_MULTICAST: ::c_int = 0x200;
 pub const RTF_LLINFO: ::c_int = 0x400;
 pub const RTF_PROTO3: ::c_int = 0x2000;
-pub const RTF_ANNOUNCE: ::c_int = super::RTF_PROTO2;
+pub const RTF_ANNOUNCE: ::c_int = ::RTF_PROTO2;
 
 pub const RTF_CLONED: ::c_int = 0x10000;
 pub const RTF_CACHED: ::c_int = 0x20000;
