@@ -1533,6 +1533,7 @@ pub const RTM_VERSION: ::c_int = 7;
 pub const RTAX_MPLS1: ::c_int = 8;
 pub const RTAX_MPLS2: ::c_int = 9;
 pub const RTAX_MPLS3: ::c_int = 10;
+pub const RTAX_MAX: ::c_int = 11;
 
 const_fn! {
     {const} fn _CMSG_ALIGN(n: usize) -> usize {
